@@ -8,7 +8,7 @@ permalink: /16x2LCD.htm
 Learn how to use the 16x2 LCD shield with the Arduino Liquid Crystal Library.
 
 # Required Components
-* <a href="https://www.sparkfun.com/products/255" target="_blank">16x2 LCD</a>
+* [16x2 LCD](https://www.sparkfun.com/products/255){:target="_blank"}
 * a resistor that provides your desired contrast (look at your LCD's spec sheet)
 
 # Hooking up Components
@@ -18,8 +18,6 @@ If you are using the 16x2 LCD listed above, follow the diagram below:<br/>
 # Create a new project
 
 1. Create a new project from the template.
-1. Go to <a href="https://github.com/arduino/Arduino/tree/master/libraries/LiquidCrystal" target="_blank">Arduino's Liquid Crystal Library GitHub</a> and download the LiquidCrystal.cpp and LiquidCrystal.h files.
-1. Place the LiquidCrystal.cpp and LiquidCrystal.h files in your new project.
 1. Based on your 16x2 LCD you may need to specify other pins for use with the LiquidCrystal library.
 1. Replace the existing code in stdafx.h and main.cpp with the following code:
 
@@ -79,6 +77,8 @@ void loop()
 {
 }
 {% endhighlight %}
-  <hr/>
 
-<a class="btn btn-default" href="SampleApps.htm" role="button">&laquo; Return to Samples</a>
+
+---
+
+[&laquo; Return to Samples](SampleApps.htm){:role="button"}{:class="btn btn-default"}
